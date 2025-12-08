@@ -10,5 +10,4 @@ export default defineConfig({
     open: true, // 自动打开浏览器
   },
   base: "/sen/", // 关键：使用相对路径
-  plugins: [vue()],
 });
