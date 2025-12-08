@@ -6,5 +6,9 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     port: 3000
-  }
+  },
+  // GitHub Pages部署时的基础路径，根据实际情况修改
+  // 如果部署在https://username.github.io/下，使用'/'
+  // 如果部署在https://username.github.io/repo-name/下，使用'/repo-name/'
+  base: '/'
 })
