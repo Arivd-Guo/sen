@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/booking',
+    path: '/',
     name: 'Booking',
     component: () => import('../views/Booking.vue')
   }

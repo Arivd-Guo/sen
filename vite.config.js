@@ -9,5 +9,5 @@ export default defineConfig({
     host: "0.0.0.0", // 允许外部访问
     open: true, // 自动打开浏览器
   },
-  base: "/sen/", // 关键：使用相对路径
+  base: process.env.NODE_ENV === 'production' ? '' : './',
 });
