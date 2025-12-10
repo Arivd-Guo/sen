@@ -239,7 +239,6 @@ function switchNav(nav) {
   left: 0;
   right: 0;
   text-align: center;
-  border-radius: 0.2rem 0.2rem 0 0;
   overflow: hidden;
   padding: 0.25rem 0 0.1rem 0; /* 25px */
   background-color: #005815;
@@ -257,7 +256,7 @@ function switchNav(nav) {
   display: flex;
   justify-content: center;
   background-color: #005815;
-  border-radius: 0.1rem; /* 10px */
+  border-radius: 0 0 0.1rem 0.1rem; /* 10px */
   box-shadow: 0 0.02rem 0.05rem rgba(0, 0, 0, 0.1);
   padding-top: 0.668rem;
 }
