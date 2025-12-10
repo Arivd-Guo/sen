@@ -234,12 +234,16 @@ function switchNav(nav) {
 
 /* 学校信息栏 */
 .school-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   border-radius: 0.2rem 0.2rem 0 0;
-  margin-top: -0.1rem; /* -10px */
   overflow: hidden;
   padding: 0.25rem 0 0.1rem 0; /* 25px */
   background-color: #005815;
+  z-index: 99;
 }
 
 .school-image {
@@ -252,14 +256,16 @@ function switchNav(nav) {
 .user-section {
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: #005815;
   border-radius: 0.1rem; /* 10px */
   box-shadow: 0 0.02rem 0.05rem rgba(0, 0, 0, 0.1);
+  padding-top: 0.668rem;
 }
 
 .user-image {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 /* 预约信息区域 */
@@ -394,7 +400,7 @@ function switchNav(nav) {
 .service-guide {
   position: fixed;
   bottom: 1rem; /* 30px */
-  right: 0.03rem;
+  right: 0.07rem;
   color: white;
   border-radius: 0.2rem 0.2rem 0 0;
   display: flex;
